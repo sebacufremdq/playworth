@@ -2,6 +2,7 @@ import pandas as pd
 from database import Session, Game
 from clients.steam_client import search_steam_app, get_steam_reviews
 from datetime import datetime
+from pathlib import Path
 
 
 def process_games(input_file: str):
@@ -44,4 +45,6 @@ def process_games(input_file: str):
 
 
 if __name__ == "__main__":
-    process_games("input.xlsx")
+    base_path = Path(__file__).resolve().parent
+    input_path = base_path / "data" / "input.xlsx"
+    process_games(input_path)
