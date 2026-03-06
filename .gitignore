@@ -1,4 +1,7 @@
-__pycache__/
+.idea/
 *.pyc
 games.db
+.env
+venv/
+__pycache__/
 .env
