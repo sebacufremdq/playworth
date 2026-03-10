@@ -1,7 +1,19 @@
-.idea/
-*.pyc
-games.db
-.env
-venv/
+
+# Python
 __pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# IDE
+.idea/
+
+# Environment variables
 .env
+
+# Database
+*.db
+
+# Data files
+data/*.xlsx

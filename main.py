@@ -4,6 +4,7 @@ from clients.steam_client import search_steam_app, get_steam_reviews
 from datetime import datetime
 from pathlib import Path
 from utils.normalization import normalize_game_name
+from clients.steam_client import SteamClient
 
 ########################################################################
 # FUNCIONES                                                            #
